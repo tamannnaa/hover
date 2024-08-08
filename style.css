@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+.animal, .plants{
+    position: relative;
+    height:100px;
+    width:200px;
+}
+.name, .plantname{
+    height:100px;
+    width:100px;
+    display: inline-block;
+    text-align: center;
+}
+.image, .plantimage{
+    height:100px;
+    width:100px;
+    background-size: cover;
+    background-position: center;
+    visibility: hidden;
+}
+.animal:hover .simage {
+    background-image: url('squirrel.jpeg');
+    visibility: visible;
+}
+.animal:hover .himage {
+    background-image: url('horse.jpeg'); 
+    visibility: visible;
+}
+.animal:hover .aimage {
+    background-image: url('fox.jpeg'); 
+    visibility: visible;
+}
+.animal:hover .limage {
+    background-image: url('leopard.jpeg'); 
+    visibility: visible;
+}
+.animal:hover .bimage {
+    background-image: url('whale.jpeg'); 
+    visibility: visible;
+}
+
+.plants:hover .daisy {
+    background-image: url('daisy.jpeg');
+    visibility: visible;
+}
+.plants:hover .rose {
+    background-image: url('rose.jpeg'); 
+    visibility: visible;
+}
+.plants:hover .sunflower {
+    background-image: url('sunflower.jpeg'); 
+    visibility: visible;
+}
+.plants:hover .tulip {
+    background-image: url('tulip.jpeg'); 
+    visibility: visible;
+}
+.plants:hover .daffodil {
+    background-image: url('daffodil.jpeg'); 
+    visibility: visible;
+}
